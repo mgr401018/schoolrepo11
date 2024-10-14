@@ -2,9 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         Par p1 = new Par("n1", "s1", 1);
-        p1.foo();  // Outputs: This animal makes a sound.
+        p1.foo();  
 
-        // Create an instance of Dog
         Child ch1 = new Child("n2", "s2", 2, 3);
         ch1.foo();
 
